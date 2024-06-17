@@ -10,4 +10,13 @@
     position: fixed;
     object-fit: cover;
     z-index: -1;
+    transition: background-image .4s ease-in-out .2s;
+}
+@keyframes fadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.fadeIn{
+    animation: fadeIn .5s ease-in-out;
 }
