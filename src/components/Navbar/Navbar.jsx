@@ -1,9 +1,18 @@
-import './Navbar.css'
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <div className="nav">
+      <div className="nav__logo">EV-olution</div>
 
-export default Navbar
+      <ul className="nav__menu">
+        <li>Home</li>
+        <li>Explore</li>
+        <li>About</li>
+        <li className="nav__contact">Contact</li>
+      </ul>
+    </div>
+  );
+};
+
+export default Navbar;

@@ -1,9 +1,7 @@
-import './Hero.css'
+import "./Hero.css";
 
 const Hero = () => {
-  return (
-    <div>Hero</div>
-  )
-}
+  return <div>Hero</div>;
+};
 
-export default Hero
+export default Hero;
