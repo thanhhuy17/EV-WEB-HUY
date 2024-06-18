@@ -20,7 +20,7 @@ export const App = () => {
         return count === 2 ? 0 : count + 1;
       });
     }, 3000);
-  }, []);
+  }, []); 
 
   // useEffect(() => {
   //   const intervalId = setTimeout(() => {
