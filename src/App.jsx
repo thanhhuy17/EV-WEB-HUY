@@ -20,7 +20,7 @@ export const App = () => {
         return count === 2 ? 0 : count + 1;
       });
     }, 3000);
-  }, []);
+  }, []); 
 
   // useEffect(() => {
   //   const intervalId = setTimeout(() => {
@@ -40,7 +40,7 @@ export const App = () => {
       <Navbar />
       <Hero
         setPlayStatus={setPlayStatus}
-        heroData={heroData[heroCount]} // lấy theo khi chọn heroCount
+        heroData={heroData[heroCount]} // Lấy TEXT1 TEXT2 theo khi chọn heroCount
         heroCount={heroCount}
         setHeroCount={setHeroCount}
         playStatus={playStatus}
