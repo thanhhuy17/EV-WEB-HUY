@@ -11,7 +11,7 @@ export const App = () => {
     { text1: "Give into", text2: "your passions" },
   ];
 
-  const [heroCount, setHeroCount] = useState(2);
+  const [heroCount, setHeroCount] = useState(2); //state
   const [playStatus, setPlayStatus] = useState(false);
   //Chuyen anh 3s 1 lan
   useEffect(() => {

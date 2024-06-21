@@ -28,7 +28,8 @@ const Hero = ({
             onClick={() => {
               setHeroCount(0);
             }}
-            className={heroCount === 0 ? "hero__dot orange" : "hero__dot"}
+            // className={heroCount === 0 ? "hero__dot orange" : "hero__dot"}
+            className={`hero__dot ${heroCount === 0 ? "orange" : ""}`}
           >
             Car 1
           </li>
